@@ -1,0 +1,164 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.App-header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.bg-background {
+  background-color: #fff;
+}
+
+.text-foreground {
+  color: #333;
+}
+
+.bg-primary {
+  background-color: #007bff;
+}
+
+.text-primary-foreground {
+  color: #fff;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.text-2xl {
+  font-size: 1.5rem;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.text-lg {
+  font-size: 1.125rem;
+}
+
+.font-medium {
+  font-weight: 500;
+}
+
+.mb-2 {
+  margin-bottom: .5rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+
+.space-y-4 {
+  --space-y-reverse: 0;
+  margin-top: calc(1rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(1rem * var(--space-y-reverse));
+}
+
+.space-y-2 > :not([hidden]) ~ :not([hidden]) {
+  --space-y-reverse: 0;
+  margin-top: calc(.5rem * calc(1 - var(--space-y-reverse)));
+  margin-bottom: calc(.5rem * calc(var(--space-y-reverse)));
+}
+
+.bg-card {
+  background-color: #f8f9fa;
+}
+
+.p-4 {
+  padding: 1rem;
+}
+
+.rounded-md {
+  border-radius: .375rem;
+}
+
+.shadow-sm {
+  box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+}
+
+.opacity-50 {
+  opacity: .5;
+}
+
+.line-through {
+  text-decoration: line-through;
+}
+
+.text-muted-foreground {
+  color: #6c757d;
+}
+
+.text-sm {
+  font-size: .875rem;
+}
+
+.text-red-50 {
+  color: #f8d7da;
+}
+
+.bg-red-500 {
+  background-color: #dc3545;
+}
+
+.text-red-50 {
+  color: #f8d7da;
+}
+
+.flex.items-center {
+  align-items: center;
+}
+
+.gap-2 {
+  gap: .5rem;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.variant-outline {
+  border: 1px solid #dee2e6;
+  background-color: transparent;
+  color: #333;
+}
