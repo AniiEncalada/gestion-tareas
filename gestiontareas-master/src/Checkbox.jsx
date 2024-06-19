@@ -1,9 +1,14 @@
-// Checkbox.js
 import React from 'react';
 import Checkbox from '@mui/material/Checkbox';
 
-const MyCheckbox = (props) => {
-    return <Checkbox {...props} />;
+const MyCheckbox = ({ checked, onCheckedChange, ...props }) => {
+    return (
+        <Checkbox
+            checked={checked}
+            onChange={(event) => onCheckedChange(event.target.checked)}
+            {...props}
+        />
+    );
 };
 
 export default MyCheckbox;

@@ -1,7 +1,5 @@
 import React from 'react';
-import Modal from 'react-modal';
-
-Modal.setAppElement('#root'); // Reemplaza '#root' con el id de tu elemento raíz de la aplicación
+import Modal from 'react-modal'
 
 const AlertDialog = ({ isOpen, title, description, onConfirm, onRequestClose }) => {
     return (
